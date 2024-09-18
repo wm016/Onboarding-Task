@@ -67,23 +67,24 @@ You will be creating a simple morse code program using the ESP32's built-in LED:
 
 ## Submission Instructions
 
-1. Once your code is working, record and send a video or perform an in-person demo
-2. Stage your changes:
+Once your code is working, record and send a video or perform an in-person demo, then:
+
+1. Stage your changes:
 
 ```bash
 git add .
 ```
 
-3. Commit your changes:
+2. Commit your changes:
 
 ```bash
 git commit -m "Add morse code implementation"  # NOTE: please name the commit accordingly
 ```
 
-4. Push your changes:
+3. Push your changes:
 
 ```bash
 git push origin YourName
 ```
 
-5. Create a new pull request for your branch [here](https://github.com/GryphonRacingFSAE/Onboarding-Task/pulls)
+4. Create a pull request for your branch [here](https://github.com/GryphonRacingFSAE/Onboarding-Task/pulls)
