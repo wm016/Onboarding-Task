@@ -67,7 +67,7 @@ You will be creating a simple morse code program using the ESP32's built-in LED:
 
 ## Submission Instructions
 
-Once your code is working, record and send a video or perform an in-person demo, then:
+Once your code is working, **record a video** or perform an **in-person demo**, then:
 
 1. Stage your changes:
 
