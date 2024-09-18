@@ -42,24 +42,48 @@ git checkout -b YourName  # NOTE: please name the branch accordingly
 
 You will be creating a simple morse code program using the ESP32's built-in LED:
 
-- The built-in LED can be enabled through GPIO 2 - `pinMode(2, OUTPUT);`
-- The LED can be turned on/off by setting the pin's voltage (HIGH/LOW) - `digitalWrite(2, HIGH);`
-- The default program delay is based on milliseconds (1000ms = 1s) - `delay(1000);`
+- The built-in LED can be enabled through GPIO 2 &rarr; `pinMode(2, OUTPUT);`
+- The LED can be turned on/off by setting the pin's voltage (HIGH/LOW) &rarr; `digitalWrite(2, HIGH);`
+- The default program delay is based on milliseconds (1000ms = 1s) &rarr; `delay(1000);`
 
 ### Program Parameters
 
 1. The task will be to spell the word **MISSISSIPPI**
 2. The morse code system should work on the basis of a default time unit (500ms)
 3. The following time unit multiples should be used for each feature:
-   | Feature | Time (units) |
-   | --- | --- |
-   | Dot | 1 |
-   | Dash | 3 |
-   | Space between dots/dashes | 1 |
-   | Space between letters | 3 |
-   | Space between words | 7 |
+
+| Feature                   | Time (units) |
+| ------------------------- | ------------ |
+| Dot                       | 1            |
+| Dash                      | 3            |
+| Space between dots/dashes | 1            |
+| Space between letters     | 3            |
+| Space between words       | 7            |
 
 #### Notes:
 
 - The chosen word includes a variety of repeating letters, which should encourage functional programming
 - Since there is only one word, please use a length of 7 time units at the end of the word and have it loop
+
+## Submission Instructions
+
+1. Once your code is working, record and send a video or perform an in-person demo
+2. Stage your changes:
+
+```bash
+git add .
+```
+
+3. Commit your changes:
+
+```bash
+git commit -m "Add morse code implementation"  # NOTE: please name the commit accordingly
+```
+
+4. Push your changes:
+
+```bash
+git push origin YourName
+```
+
+5. Create a new pull request for your branch [here](https://github.com/GryphonRacingFSAE/Onboarding-Task/pulls)
