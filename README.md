@@ -37,3 +37,29 @@ git checkout -b YourName  # NOTE: please name the branch accordingly
 4. Open the repo folder in Visual Studio Code
 5. Ensure the correct branch is selected in the bottom-left (e.g. YourName)
 6. Select the PlatformIO icon from the left toolbar and wait for the project to initialize
+
+## Task Instructions
+
+You will be creating a simple morse code program using the ESP32's built-in LED:
+
+- The built-in LED can be enabled through GPIO 2 - `pinMode(2, OUTPUT);`
+- The LED can be turned on/off by setting the pin's voltage (HIGH/LOW) - `digitalWrite(2, HIGH);`
+- The default program delay is based on milliseconds (1000ms = 1s) - `delay(1000);`
+
+### Program Parameters
+
+1. The task will be to spell the word **MISSISSIPPI**
+2. The morse code system should work on the basis of a default time unit (500ms)
+3. The following time unit multiples should be used for each feature:
+   | Feature | Time (units) |
+   | --- | --- |
+   | Dot | 1 |
+   | Dash | 3 |
+   | Space between dots/dashes | 1 |
+   | Space between letters | 3 |
+   | Space between words | 7 |
+
+#### Notes:
+
+- The chosen word includes a variety of repeating letters, which should encourage functional programming
+- Since there is only one word, please use a length of 7 time units at the end of the word and have it loop
